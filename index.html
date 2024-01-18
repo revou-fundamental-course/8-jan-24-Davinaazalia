@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katik Persegi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Katik Kalkulator Matematik</h1>
+      <div class="box">
+      <h2><b>Welcome to katik</h2></b>
+      <div class="deskripsi">
+      <p> Hai sobat, Selamat datang di Katik :]<br />
+        Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan
+        keliling bangun datar
+      </p>
+      </div>
+      <div class="Persegi">
+      <h4 align = "center">Persegi</h4>
+      </div>
+      <p>
+      <h2 align = "center">Luas Persegi</h2>
+      <div>
+        <div class="gambar">
+      <br><img src="persegi.png" width="10%"></br>
+      </div>
+      <p align = "center" >Bujur sangkar</p>
+      
+      <p>Rumus Luas Persegi yaitu :</p>
+      <div>
+        <div class="rumus">
+          <p><b>L = S &times; S</p></b>
+      </div>
+
+      <p>Di mana :</br>L = Luas </br> S = Sisi </p><hr>
+      <h2 align = "center">Hitung Luas Persegi</h2>
+      <input type="number" id="sideLength1" placeholder="Masukkan panjang sisi">
+  
+      <button onclick="hitungLuas()">Hitung</button>
+  
+      <p id="resultLuas"></p>
+        <hr>
+         <br> 
+      <h2 align = "center">Keliling Persegi</h2>
+      <br>
+      <div>
+        <div class="gambardandesk">
+      <img src="persegi.png" width="10%"></br>
+      <p>Bujur sangkar</p>
+      </div>
+
+      <p>Rumus Keliling Persegi yaitu :</p>
+      <div>
+        <div class="rumus2">
+      <p><b>L = 4 &times; S</p></b>
+      </div>
+
+      <p>Di mana :</br>K = Keliling </br> S = Sisi </p><hr>
+      <h2 align = "center" >Hitung Keliling Persegi</h2>
+     
+      
+      <input type="number" id="sideLength2" placeholder="Masukkan panjang sisi">
+  
+      <button onclick="hitungKeliling()">Hitung</button>
+  
+      <p id="resultKeliling"></p>
+     
+
+    </header>
+  </body>
+</html>
